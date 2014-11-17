@@ -1,6 +1,6 @@
-class CreateIdeas < ActiveRecord::Migration
+class CreateGifts < ActiveRecord::Migration
   def change
-    create_table :ideas do |t|
+    create_table :gifts do |t|
       t.string :name
       t.text :description
       t.string :picture

@@ -1,10 +1,10 @@
-<%= form_for(@idea) do |f| %>
-  <% if @idea.errors.any? %>
+<%= form_for(@gift) do |f| %>
+  <% if @gift.errors.any? %>
     <div id="error_explanation">
-      <h2><%= pluralize(@idea.errors.count, "error") %> prohibited this idea from being saved:</h2>
+      <h2><%= pluralize(@gift.errors.count, "error") %> prohibited this gift from being saved:</h2>
 
       <ul>
-      <% @idea.errors.full_messages.each do |message| %>
+      <% @gift.errors.full_messages.each do |message| %>
         <li><%= message %></li>
       <% end %>
       </ul>

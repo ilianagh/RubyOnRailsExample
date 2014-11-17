@@ -1,5 +1,5 @@
 FactoryGirl.define do
-  factory :idea do
+  factory :gift do
     name "MyString"
 description "MyText"
 picture "MyString"
