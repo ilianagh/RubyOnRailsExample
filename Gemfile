@@ -40,6 +40,7 @@ gem 'spring',        group: :development
 # gem 'debugger', group: [:development, :test]
 
 gem 'sqlite3'
+gem 'carrierwave'
 
 gem "figaro"
 gem "unicorn"
