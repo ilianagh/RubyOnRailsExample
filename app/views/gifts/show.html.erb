@@ -12,7 +12,7 @@
 
 <p>
   <strong>Picture:</strong>
-  <%= image_tag(@gift.picture_url, :width => 600) if @gift.picture.present? %>
+  <%= image_tag(@gift.picture_url, :width => 400) if @gift.picture.present? %>
 </p>
 
 <%= link_to 'Edit', edit_gift_path(@gift) %> |
