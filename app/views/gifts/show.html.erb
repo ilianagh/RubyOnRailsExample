@@ -1,19 +1,19 @@
 <p id="notice"><%= notice %></p>
 
 <p>
-  <strong>Name:</strong>
+  <strong>Nombre:</strong>
   <%= @gift.name %>
 </p>
 
 <p>
-  <strong>Description:</strong>
+  <strong>Descripcion:</strong>
   <%= @gift.description %>
 </p>
 
 <p>
-  <strong>Picture:</strong>
+  <strong>Imagen:</strong>
   <%= image_tag(@gift.picture_url, :width => 400) if @gift.picture.present? %>
 </p>
 
-<%= link_to 'Edit', edit_gift_path(@gift) %> |
-<%= link_to 'Back', gifts_path %>
+<%= link_to 'Editar', edit_gift_path(@gift) %> |
+<%= link_to 'Regresar', gifts_path %>

@@ -1,7 +1,8 @@
 Rails.application.routes.draw do
   get 'pages/info'
 
-  root :to => redirect('/gifts')
+  # root :to => redirect('/gifts')
+  root 'gifts#index'
   resources :gifts
 
   # The priority is based upon order of creation: first created -> highest priority.
